@@ -174,6 +174,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bdb074df-a4ee-43bd-ab30-6edd23638d07}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6806f836-9f47-4db7-8abd-0f90c75ede00}</destination>
 		</relationship>
@@ -229,9 +232,6 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
-		<property name="volume">
-			<value>-8</value>
-		</property>
 		<relationship name="triggerConditions">
 			<destination>{4f8297ad-0bd9-4c5b-91de-f7f31dc71a47}</destination>
 		</relationship>
@@ -243,7 +243,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1e5a5223-26c2-46d0-b565-d61549d11112}">
 		<property name="volume">
-			<value>-14</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
 			<value>shot</value>
@@ -279,7 +279,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{cc281a38-b933-4867-ac80-5c4a3cf11b3b}">
 		<property name="volume">
-			<value>-20</value>
+			<value>-12</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
@@ -311,6 +311,9 @@
 		</property>
 		<property name="maxVoices">
 			<value>1</value>
+		</property>
+		<property name="volume">
+			<value>5</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{12a8836d-238d-4559-9d62-ef29b43ca9f9}</destination>
@@ -511,7 +514,6 @@
 	<object class="MixerBusEffectChain" id="{6806f836-9f47-4db7-8abd-0f90c75ede00}">
 		<relationship name="effects">
 			<destination>{b9733612-68bf-448c-b678-e31116e3eb4b}</destination>
-			<destination>{c6e4434a-a29d-43c9-8332-802246d0ac68}</destination>
 			<destination>{1bbe7d2f-73a1-42a8-8822-0431093460b0}</destination>
 		</relationship>
 	</object>
@@ -853,14 +855,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{9ff42cd9-48dd-435e-a34a-7a19d61ad571}" />
 	<object class="MixerBusFader" id="{b9733612-68bf-448c-b678-e31116e3eb4b}" />
-	<object class="ProxyEffect" id="{c6e4434a-a29d-43c9-8332-802246d0ac68}">
-		<property name="inputFormat">
-			<value>1</value>
-		</property>
-		<relationship name="preset">
-			<destination>{c57c4437-bd88-4b33-9e7a-ac95afc0f60d}</destination>
-		</relationship>
-	</object>
 	<object class="SpatialiserEffect" id="{1bbe7d2f-73a1-42a8-8822-0431093460b0}">
 		<property name="distanceRolloffType">
 			<value>4</value>
@@ -1140,7 +1134,7 @@
 	<object class="MixerBusFader" id="{168b4a8c-7847-4a15-a71c-58e5bb150fd0}" />
 	<object class="ProxyEffect" id="{750be3d0-4190-4c61-8032-da4e090abd89}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{c17552fa-32f6-46fd-af67-a2853282a08c}</destination>
@@ -1148,7 +1142,7 @@
 	</object>
 	<object class="ProxyEffect" id="{28857489-3901-451b-9f88-727e8a1feb39}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{4ea814d2-9b1a-4ab3-a87d-18f88338425b}</destination>

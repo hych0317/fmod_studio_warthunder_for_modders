@@ -70,7 +70,8 @@
 	<object class="MarkerTrack" id="{cdbbc024-4120-41e2-adf7-a3a1570fd0a2}" />
 	<object class="GroupTrack" id="{a872910e-cdb4-4127-9ec2-194a34ff2b36}">
 		<relationship name="modules">
-			<destination>{e89d69a0-ebb7-46b2-a270-0341e7209aaa}</destination>
+			<destination>{5d801433-907b-422c-95cb-4f1f264035b0}</destination>
+			<destination>{db63e579-7781-4dc3-889e-5f7f3008c92b}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d4edbc22-6f46-4c88-85eb-b48741026c5d}</destination>
@@ -78,7 +79,8 @@
 	</object>
 	<object class="Timeline" id="{33a3cf1c-aab7-45b4-a4eb-a5d15ecbdd6e}">
 		<relationship name="modules">
-			<destination>{e89d69a0-ebb7-46b2-a270-0341e7209aaa}</destination>
+			<destination>{5d801433-907b-422c-95cb-4f1f264035b0}</destination>
+			<destination>{db63e579-7781-4dc3-889e-5f7f3008c92b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6b80d8ea-00e2-4f3c-a4cd-b023e99afe6d}">
@@ -98,9 +100,29 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b80dc9e9-460f-4133-a188-d9e5b5d5b848}" />
-	<object class="SingleSound" id="{e89d69a0-ebb7-46b2-a270-0341e7209aaa}">
+	<object class="SingleSound" id="{5d801433-907b-422c-95cb-4f1f264035b0}">
 		<property name="length">
-			<value>1.3753741496598639</value>
+			<value>1.1500000000000001</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{00a6430c-100b-48a8-af85-05504b78adaa}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{db63e579-7781-4dc3-889e-5f7f3008c92b}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>50</value>
+		</property>
+		<property name="start">
+			<value>1.1500000000000001</value>
+		</property>
+		<property name="length">
+			<value>1.05</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>1.1500000000000001</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{00a6430c-100b-48a8-af85-05504b78adaa}</destination>

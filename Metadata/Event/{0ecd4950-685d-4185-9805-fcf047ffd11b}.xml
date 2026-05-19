@@ -5,7 +5,7 @@
 			<value>vws_engine_failure</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e41e6163-5e90-472c-ba47-f4e514a03013}</destination>
@@ -70,7 +70,8 @@
 	<object class="MarkerTrack" id="{8c02584a-c941-4159-a86f-28df50d7b338}" />
 	<object class="GroupTrack" id="{f2a793fb-bef6-4021-a9a0-64adfd1f26f5}">
 		<relationship name="modules">
-			<destination>{1d420c2f-21b8-4b9a-bc9a-cd709b4726b2}</destination>
+			<destination>{1cb9d2c2-3eae-413f-87e5-c28924342f6a}</destination>
+			<destination>{686ede8e-326d-4096-b1e5-09e76952c8cc}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{1402791d-7c32-4b77-ada0-d5053314eaa9}</destination>
@@ -78,7 +79,8 @@
 	</object>
 	<object class="Timeline" id="{c9af7ea8-f691-4122-8dcf-6f52fa285c2c}">
 		<relationship name="modules">
-			<destination>{1d420c2f-21b8-4b9a-bc9a-cd709b4726b2}</destination>
+			<destination>{1cb9d2c2-3eae-413f-87e5-c28924342f6a}</destination>
+			<destination>{686ede8e-326d-4096-b1e5-09e76952c8cc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{51b44402-0f65-4568-a9a7-3507a93b396a}">
@@ -98,12 +100,35 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{70f7d44a-1106-4aee-9ab4-c09136c2239c}" />
-	<object class="SingleSound" id="{1d420c2f-21b8-4b9a-bc9a-cd709b4726b2}">
+	<object class="SingleSound" id="{1cb9d2c2-3eae-413f-87e5-c28924342f6a}">
 		<property name="length">
-			<value>1.4092517006802721</value>
+			<value>1.1000000000000001</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{235f948e-ffce-4f92-8bf5-ff06a615df39}</destination>
+			<destination>{619ac5cc-29fc-4646-964f-f2d3c6af4208}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{686ede8e-326d-4096-b1e5-09e76952c8cc}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>50</value>
+		</property>
+		<property name="start">
+			<value>1.1000000000000001</value>
+		</property>
+		<property name="length">
+			<value>1.2019583333333332</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>1.1000000000000001</value>
+		</property>
+		<property name="volume">
+			<value>-3</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{619ac5cc-29fc-4646-964f-f2d3c6af4208}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1402791d-7c32-4b77-ada0-d5053314eaa9}">

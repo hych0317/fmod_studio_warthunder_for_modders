@@ -80,9 +80,6 @@
 		</relationship>
 	</object>
 	<object class="MultibandEqEffect" id="{8603d7ff-d0be-4f07-9adc-7fd6c8ab94fc}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="filterTypeB">
 			<value>7</value>
 		</property>
@@ -139,7 +136,7 @@
 	</object>
 	<object class="CompressorEffect" id="{f8b9b4a0-be5c-452d-a8b3-61842297cc69}">
 		<property name="threshold">
-			<value>-2</value>
+			<value>-6</value>
 		</property>
 		<property name="ratio">
 			<value>4</value>
@@ -214,7 +211,7 @@
 			<value>10</value>
 		</property>
 		<relationship name="sidechains">
-			<destination>{b374ea5d-3228-4f38-889e-d85f0764b604}</destination>
+			<destination>{18eb53d5-e16a-408e-b30f-32daf40d26a8}</destination>
 		</relationship>
 	</object>
 	<object class="SidechainModulator" id="{922a5752-91af-49e3-a331-36552a8593c7}">
@@ -240,7 +237,7 @@
 			<value>10</value>
 		</property>
 		<relationship name="sidechains">
-			<destination>{2e93a294-f557-4e50-9f9b-1478087c227a}</destination>
+			<destination>{18eb53d5-e16a-408e-b30f-32daf40d26a8}</destination>
 		</relationship>
 	</object>
 	<object class="SidechainModulator" id="{143b2059-66a1-4cc5-acd4-1749a819b030}">
@@ -248,7 +245,7 @@
 			<value>gain</value>
 		</property>
 		<property name="amount">
-			<value>10</value>
+			<value>20</value>
 		</property>
 		<property name="releaseTime">
 			<value>1000</value>

@@ -160,7 +160,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{1fdd0682-47f3-4803-8845-b41a59428be0}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-5</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
@@ -231,7 +231,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ef24706b-303b-46c4-82d6-95e2a47e45db}">
 		<property name="volume">
-			<value>5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>close</value>
@@ -308,7 +308,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6f0c23a5-2b45-4a0b-a6fa-71e53f7d6b07}">
 		<property name="volume">
-			<value>5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>far</value>
@@ -566,7 +566,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{7ad8922b-c8f5-4c34-8dac-75a9b700d2c8}" />
 	<object class="MixerBusFader" id="{660b6aa8-d5ee-4b52-b9de-e9d72aac3933}" />
-	<object class="GainEffect" id="{2dadea18-8fc2-46e0-a0a1-675302447a6d}" />
+	<object class="GainEffect" id="{2dadea18-8fc2-46e0-a0a1-675302447a6d}">
+		<property name="gain">
+			<value>-8</value>
+		</property>
+	</object>
 	<object class="ProxyEffect" id="{455e905f-3461-4131-af40-2864585c3e13}">
 		<property name="inputFormat">
 			<value>1</value>
@@ -652,7 +656,7 @@
 	</object>
 	<object class="ProxyEffect" id="{355d3608-6acc-407a-9151-2abbf8af3286}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{1ddad55b-ab30-4363-9aa1-b54505e245ce}</destination>

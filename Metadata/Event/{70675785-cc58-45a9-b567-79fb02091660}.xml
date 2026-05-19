@@ -301,9 +301,6 @@
 		<property name="name">
 			<value>/engines_tanks/su100/su_100_engine_rpm_33_load</value>
 		</property>
-		<property name="pitch">
-			<value>-2</value>
-		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -524,7 +521,7 @@
 			<value>55</value>
 		</property>
 		<property name="pitchAtMinimum">
-			<value>0.784999967</value>
+			<value>0.704999983</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{8cc690b4-e4ca-426d-9677-48a5333a183c}">
@@ -589,7 +586,7 @@
 			<value>100</value>
 		</property>
 		<property name="pitchAtMinimum">
-			<value>0.104999997</value>
+			<value>0.399999976</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{4f57bab0-db3f-4946-968c-ba3797d5112d}">
