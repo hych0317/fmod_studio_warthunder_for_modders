@@ -99,8 +99,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{ef85d759-5ce4-4fb8-817a-cf929f14c7ed}" />
 	<object class="SingleSound" id="{d67e7218-81fd-4c01-b9a2-4efbc2eeb24d}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>70</value>
+		</property>
 		<property name="length">
-			<value>0.79605442176870744</value>
+			<value>1.75</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{af73b03e-dce3-4fb8-8562-9abca7b332fb}</destination>

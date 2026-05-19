@@ -222,7 +222,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2a3125cf-7fd2-4ea9-9911-bec9788f48a9}">
 		<property name="volume">
-			<value>5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>close</value>
@@ -299,7 +299,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1221a74a-11a9-4179-83d1-207c3351384f}">
 		<property name="volume">
-			<value>5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>far</value>
@@ -643,7 +643,7 @@
 	</object>
 	<object class="ProxyEffect" id="{88476bdc-d369-4ed1-8f21-1d976721dab9}">
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="preset">
 			<destination>{1ddad55b-ab30-4363-9aa1-b54505e245ce}</destination>

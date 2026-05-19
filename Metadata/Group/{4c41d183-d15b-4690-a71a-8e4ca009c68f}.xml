@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.01.00">
 	<object class="MixerGroup" id="{4c41d183-d15b-4690-a71a-8e4ca009c68f}">
 		<property name="volume">
-			<value>1</value>
+			<value>4</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
@@ -36,9 +36,6 @@
 	</object>
 	<object class="MixerBusFader" id="{0b024897-933e-4cb9-b27d-64791482135d}" />
 	<object class="MultibandEqEffect" id="{97a74263-fc79-4d15-a311-6cc727664dae}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<property name="filterTypeA">
 			<value>0</value>
 		</property>
