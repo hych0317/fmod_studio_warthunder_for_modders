@@ -179,6 +179,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="volume">
+			<value>6</value>
+		</property>
 		<relationship name="triggerConditions">
 			<destination>{dd4310d7-f9c1-4a8f-a367-2e30a925f77a}</destination>
 		</relationship>
@@ -288,7 +291,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3495fa11-55a0-4698-b06e-55844a3943a4}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-20</value>
 		</property>
 		<property name="name">
 			<value>far</value>
