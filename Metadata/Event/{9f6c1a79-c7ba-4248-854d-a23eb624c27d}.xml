@@ -5,7 +5,7 @@
 			<value>vws_right_engine_overheat</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8a1a4893-de14-4af9-84f8-df6911045eac}</destination>
@@ -69,18 +69,11 @@
 	</object>
 	<object class="MarkerTrack" id="{e4f02cb7-d7d1-4ec4-b8fe-e7914f5adc20}" />
 	<object class="GroupTrack" id="{f64fc02f-41ec-496c-af05-e2f93e56f487}">
-		<relationship name="modules">
-			<destination>{b5df23c9-8bd4-45df-aebe-3a97d590f9c4}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{40e2a038-829d-4f22-a770-44fcb2ad95f0}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{465bfa37-0a87-415e-9082-22dfa70fb152}">
-		<relationship name="modules">
-			<destination>{b5df23c9-8bd4-45df-aebe-3a97d590f9c4}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{465bfa37-0a87-415e-9082-22dfa70fb152}" />
 	<object class="EventMixerMaster" id="{91231db4-37be-42d5-b38e-dae93c0f6394}">
 		<relationship name="effectChain">
 			<destination>{04223079-0d8c-4fb8-89d4-4ee76c500554}</destination>
@@ -98,14 +91,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b65d3262-5aa7-4e3c-a3a1-05bf9fc6b849}" />
-	<object class="SingleSound" id="{b5df23c9-8bd4-45df-aebe-3a97d590f9c4}">
-		<property name="length">
-			<value>0.8773659863945581</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{815951c8-1167-47f6-b2da-b2a9474ccd07}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{40e2a038-829d-4f22-a770-44fcb2ad95f0}">
 		<property name="name">
 			<value>Audio 1</value>

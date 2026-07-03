@@ -5,7 +5,7 @@
 			<value>vws_left_engine_failure</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e41e6163-5e90-472c-ba47-f4e514a03013}</destination>
@@ -69,18 +69,11 @@
 	</object>
 	<object class="MarkerTrack" id="{a11980a4-30c0-4de9-81da-9e1d5b5fcd3c}" />
 	<object class="GroupTrack" id="{b9bb9793-8d22-4f2e-8790-153d53838555}">
-		<relationship name="modules">
-			<destination>{e3f271af-9897-44ad-b994-efa2894ae276}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{3494bf8c-ec63-434e-bd81-4501166ce857}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{e4aa365a-738d-4242-956d-9ef6f10e6b58}">
-		<relationship name="modules">
-			<destination>{e3f271af-9897-44ad-b994-efa2894ae276}</destination>
-		</relationship>
-	</object>
+	<object class="Timeline" id="{e4aa365a-738d-4242-956d-9ef6f10e6b58}" />
 	<object class="EventMixerMaster" id="{ecfc8578-27fb-418f-8c75-c6ec458fae00}">
 		<relationship name="effectChain">
 			<destination>{af9fb3f3-0706-4cd0-b758-d49d98cce6bd}</destination>
@@ -98,14 +91,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{30f24f96-8568-40f1-9eef-b9e97e0692a1}" />
-	<object class="SingleSound" id="{e3f271af-9897-44ad-b994-efa2894ae276}">
-		<property name="length">
-			<value>0.80000000000000004</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{786ae6f5-4a82-4c8f-af1d-5417dfe42e2f}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{3494bf8c-ec63-434e-bd81-4501166ce857}">
 		<property name="name">
 			<value>Audio 1</value>

@@ -106,7 +106,7 @@
 			<value>80</value>
 		</property>
 		<property name="length">
-			<value>0.82000000000000006</value>
+			<value>2</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{fbaa4678-13bf-43ff-b071-44ed62f8336c}</destination>

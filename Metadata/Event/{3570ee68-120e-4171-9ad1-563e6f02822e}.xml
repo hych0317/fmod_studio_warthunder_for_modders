@@ -5,7 +5,7 @@
 			<value>vws_critical_altitude</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8a1a4893-de14-4af9-84f8-df6911045eac}</destination>
@@ -70,7 +70,7 @@
 	<object class="MarkerTrack" id="{b6226ca1-83bb-4389-a2c9-65d7f33d99f1}" />
 	<object class="GroupTrack" id="{a13f462a-75a4-4600-845c-466b8e87bb71}">
 		<relationship name="modules">
-			<destination>{2a8371c6-7166-4e4e-a3be-b33489bbcef0}</destination>
+			<destination>{8a51593a-e6e4-40a5-be6a-d3f8192f28d4}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5c6517b1-3a6f-4bee-940c-8140f9d45c9a}</destination>
@@ -78,7 +78,7 @@
 	</object>
 	<object class="Timeline" id="{cbc250ec-ee0d-4e3e-8d15-225d290e49b4}">
 		<relationship name="modules">
-			<destination>{2a8371c6-7166-4e4e-a3be-b33489bbcef0}</destination>
+			<destination>{8a51593a-e6e4-40a5-be6a-d3f8192f28d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4026f284-cf60-4070-8732-d8f39b9fbb72}">
@@ -98,12 +98,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{966c76a6-c051-48a3-b384-5d0f771c0ef0}" />
-	<object class="SingleSound" id="{2a8371c6-7166-4e4e-a3be-b33489bbcef0}">
+	<object class="SingleSound" id="{8a51593a-e6e4-40a5-be6a-d3f8192f28d4}">
 		<property name="length">
-			<value>0.89877551020408164</value>
+			<value>1.1200000000000001</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{c371e800-2937-473e-8fb0-1719defb5530}</destination>
+			<destination>{b686024c-caec-43ff-aeda-76a4c6f82130}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5c6517b1-3a6f-4bee-940c-8140f9d45c9a}">
