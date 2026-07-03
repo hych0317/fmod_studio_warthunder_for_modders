@@ -103,10 +103,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>75</value>
-		</property>
-		<property name="length">
-			<value>1.5</value>
+			<value>40</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{82ca9541-d570-4250-bf6f-f499050382a4}</destination>
